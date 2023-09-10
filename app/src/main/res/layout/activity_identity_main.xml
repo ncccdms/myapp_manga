@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".IdentityMain">
+
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/android_develompment"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:background="@color/magenta"/>
+
+    <!-- Foto -->
+    <ImageView
+        android:id="@+id/photoDiri"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:src="@drawable/myphoto" />
+
+    <!-- Teks -->
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/photoDiri"
+        android:text="@string/myName"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="10dp" />
+
+    <!-- Teks -->
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textNama"
+        android:text="@string/myEmail"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:padding="4dp" />
+
+</RelativeLayout>

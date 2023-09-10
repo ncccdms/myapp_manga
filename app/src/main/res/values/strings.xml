@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Myapp-release</string>
+    <string name="manga_name">Nama Manga</string>
+    <string name="description">Description</string>
+    <string name="my_manga_read_list">My Manga Read List</string>
+    <string name="android_develompment">Android Development</string>
+    <string name="myName">Nicodemus Alfriyanto Riskiwibowo</string>
+    <string name="myEmail">A120BSY2239@bangkit.academy</string>
+
+    <string-array name="data_name">
+        <item>Seven Deadly Sins</item>
+        <item>Dr Stone</item>
+        <item>Mushoku Tensei</item>
+        <item>Tokyo Revenge</item>
+        <item>Chainsaw Man</item>
+        <item>Wind Breaker</item>
+        <item>Spy x Family</item>
+        <item>Jujutsu Kaisen</item>
+        <item>Black Clover</item>
+        <item>Jigokuraku</item>
+    </string-array>
+
+    <string-array name="data_deskripsi">
+        <item>Bercerita tentang "Tujuh Dosa Mematikan", sekelompok ksatria jahat yang berkonspirasi untuk menggulingkan kerajaan Britannia, dikatakan telah diberantas oleh para Ksatria Suci, meskipun beberapa mengklaim bahwa mereka masih hidup. Sepuluh tahun kemudian, para Ksatria Suci telah melakukan kudeta dan membunuh raja, menjadi penguasa baru, tirani kerajaan. Elizabeth, putri raja, berangkat dalam perjalanan untuk menemukan "Tujuh Dosa yang Mematikan", dan untuk meminta bantuan mereka dalam mengambil kembali kerajaan.</item>
+        <item>Bayangkan bangun ke dunia di mana setiap manusia terakhir secara misterius berubah menjadi batu. Suatu hari yang menentukan, seluruh umat manusia dibatu oleh kilatan cahaya yang menyilaukan. Setelah beberapa milenium, siswa sekolah menengah Taiju terbangun dan menemukan dirinya tersesat di dunia patung. Namun, dia tidak sendiri! Temannya yang mencintai sains, Senku, telah aktif dan berjalan selama beberapa bulan dan dia memiliki rencana besar dalam pikirannya — untuk memulai peradaban dengan kekuatan sains!</item>
+        <item>Seorang pria Jepang berusia 34 tahun dikeluarkan dari rumah setelah orang tuanya meninggal. Tanpa pekerjaan atau pendidikan, ia merasa hidupnya tak berguna. Namun, ketika menyelamatkan remaja dari truk, ia meninggal. Terlahir kembali sebagai Rudeus Greyrat di dunia pedang dan sihir. Bersumpah sukses dalam kehidupan barunya.</item>
+        <item>Bercerita tentang Takemichi adalah pengangguran berusia 26 tahun yang mengetahui bahwa gadis yang dia kencani di sekolah menengah, satu-satunya gadis yang pernah dia kencani, telah meninggal. Kemudian, setelah kecelakaan dia menemukan dirinya dalam lompatan waktu kembali ke tahun-tahun sekolah menengahnya. Dia bersumpah untuk mengubah masa depan dan menyelamatkan gadis itu, dan untuk melakukan itu dia bertujuan untuk naik ke puncak geng nakal paling brutal di wilayah Kantou.</item>
+        <item>Bercerita tentang Pemuda kena mental + iblis anjing gergaji = Manusia Gergaji! Nama mengatakan itu semua! Kehidupan kemiskinan Denji berubah selamanya ketika ia bergabung dengan anjing gergaji hewan peliharaannya, Pochita! Sekarang dia tinggal di kota besar dan menjadi Pemburu Iblis resmi. Tapi dia harus banyak belajar tentang pekerjaan barunya dan kekuatan gergaji!</item>
+        <item>Menceritakan tentang seorang siswa brilian dan juga seorang ketua OSIS bernama Ja Hyun. Dibalik cemerlangnya, ia rupanya memiliki sisi lain ketika sedang mengendari sepeda. Ja Hyun memiliki kemampuan bersepeda di atas rata-rata dan melihat bakatnya itu ia pun dipaksa masuk pada tim bersepeda sekolahnya yaitu Kru Hummingbird.</item>
+        <item>Bercerita tentang Mata-mata utama dengan nama sandi telah menghabiskan hari-harinya dalam misi penyamaran, semuanya demi impian dunia yang lebih baik. Tetapi suatu hari, dia menerima perintah baru yang sangat sulit dari komando. Untuk misinya, dia harus membentuk keluarga sementara dan memulai hidup baru ?! Mata-mata / Aksi / Komedi tentang keluarga yang unik!</item>
+        <item>Bercerita tentang Yuuji adalah seorang jenius di trek dan lapangan. Tapi dia sama sekali tidak tertarik untuk berputar-putar, dia bahagia sebagai seorang clam di Klub Penelitian Ilmu Gaib. Meskipun dia hanya ada di klub untuk iseng, keadaan menjadi serius ketika semangat nyata muncul di sekolah! Hidup akan menjadi sangat aneh di SMA Kota Sugisawa # 3!</item>
+        <item>Mengisahkan Asta yang merupakan seorang anak muda yang bercita-cita menjadi penyihir terhebat di kerajaan. Dia hanya punya satu masalah, dia tidak bisa menggunakan sihir. Beruntung bagi Asta, dia menerima grimoire semanggi berdaun lima yang sangat langka yang memberinya kekuatan anti-sihir. Meskipun dia tidak bisa menggunakan sihir, dia berencana untuk menjadi Raja Penyihir.</item>
+        <item>Pada akhir zaman Edo, mantan Shinobi terkuat di Iwagakure yang dijuluki “Garan no Gabimaru” bernama Gabimaru ditawan sebagai seorang penjahat yang mematikan akibat sebuah pengkhianatan. Gabimaru diberitahu bahwa ia dapat bebas jika bisa membawa kembali sebuah ramuan keabadian dari suatu pulau yang dikabarkan sebagai Surga Tanah Murni.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/nanatsu_no_taizai</item>
+        <item>@drawable/dr_stone</item>
+        <item>@drawable/mushoku_tensei</item>
+        <item>@drawable/tokyo_revenge</item>
+        <item>@drawable/chainsaw_man</item>
+        <item>@drawable/wind_braker</item>
+        <item>@drawable/spy_x_family</item>
+        <item>@drawable/jujutsu_kaisen</item>
+        <item>@drawable/black_clover</item>
+        <item>@drawable/jigokuraku</item>
+    </integer-array>
+
+    <string-array name="data_status">
+        <item>Ongoing - 348.1</item>
+        <item>Final - 232.3</item>
+        <item>Ongoing - 92</item>
+        <item>Final - 278.4</item>
+        <item>Ongoing - 141</item>
+        <item>Ongoing - 461</item>
+        <item>Ongoing - 87</item>
+        <item>Ongoing - 234</item>
+        <item>Ongoing - 368</item>
+        <item>Ongoing - 117</item>
+    </string-array>
+
+    <string-array name="data_genre">
+        <item>Action, Adventure, Comedy, Fantasy, Romance</item>
+        <item>Action, Adventure, Comedy, Drama, Sci-Fi</item>
+        <item>Action, Adventure, Comedy, Drama, Fantasy, Isekai, Romance</item>
+        <item>Action, Drama, Romance, Mystery</item>
+        <item>Action, Comedy,Horror, Mystery, Psychological, Tragedy</item>
+        <item>Action, Drama, Sport</item>
+        <item>Action, Adventure,Comedy</item>
+        <item>Action</item>
+        <item>Action, Adventure, Comedy, Fantasy</item>
+        <item>Action, Adventure, Drama, Historical, Romance</item>
+    </string-array>
+
+    <string-array name="data_read">
+        <item>last see - 233</item>
+        <item>last see - 179</item>
+        <item>last see - 60</item>
+        <item>last see - 278.4</item>
+        <item>last see - 132</item>
+        <item>last see - 201</item>
+        <item>last see - 60</item>
+        <item>last see - 143</item>
+        <item>last see - 170</item>
+        <item>last see - 50</item>
+    </string-array>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".DetailManga">
+
+        <!-- Header -->
+        <TextView
+            android:id="@+id/judulManga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nanatsu no Taiza"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:background="@color/magenta"/>
+
+        <!-- Card with Photo, Status, and Genre -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <!-- Photo -->
+                <ImageView
+                    android:id="@+id/photoManga"
+                    android:layout_width="130dp"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/myphoto"/>
+
+                <!-- Status, Nama Genre, dan Genre -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="16dp">
+
+                    <!-- Status -->
+                    <TextView
+                        android:id="@+id/textOngoing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Status : "
+                        android:textSize="18sp"/>
+
+                    <!-- Status -->
+                    <TextView
+                        android:id="@+id/textStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ongoing"
+                        android:textSize="16sp"/>
+
+                    <!-- Last See -->
+                    <TextView
+                        android:id="@+id/reading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp"
+                        android:textStyle="bold"
+                        android:text="Status Read : "
+                        android:textSize="18sp"/>
+
+                    <!-- Last See -->
+                    <TextView
+                        android:id="@+id/lastRead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="last see - 233"
+                        android:textSize="16sp"/>
+
+                    <!-- Genre -->
+                    <TextView
+                        android:id="@+id/Genre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="18dp"
+                        android:textStyle="bold"
+                        android:text="Genre : "
+                        android:textSize="18sp"/>
+
+                    <!-- Genre -->
+                    <TextView
+                        android:id="@+id/textGenre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Action"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Sinopsis -->
+        <TextView
+            android:id="@+id/sinopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Sinopsis"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:padding="16dp"/>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/textDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description Text Goes Here"
+            android:textSize="16sp"
+            android:gravity="fill_horizontal"
+            android:padding="16dp"/>
+    </LinearLayout>
+</ScrollView>
